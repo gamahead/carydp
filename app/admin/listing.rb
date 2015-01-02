@@ -1,4 +1,5 @@
 ActiveAdmin.register Listing do
+  permit_params :bedrooms, :bathrooms, :size, :lot, :year_built, :garage, :description, :days_for_sale, :basement_type, :architecture, :roof, :mls, :cooling, :fireplace, :heating_type, :utilities, :county, :parking, :floor_covering, :exterior, :inside_city_limits, :other_rooms, :appliances_included, :features, :schools, :price
 
 
   # See permitted parameters documentation:
