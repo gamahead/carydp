@@ -54,6 +54,7 @@ end
 group :production do
   # Us postgreSQL for production/heroku
 	gem 'pg'
+  gem 'rails_12factor'
 end
 
 gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
