@@ -27,6 +27,11 @@ html,body {
 	height: 100%;
   	font-family: 'Open Sans', sans-serif;
   	background-color: White;
+  	background: url(assets/images/generic_house_1.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 // // Give everything in 'yield' margin to separate it.
@@ -59,6 +64,10 @@ html,body {
 .navbar-nav > li > a {
 		color: White;
 	}
+}
+
+.navbar-default {
+	border-color: #a31a1a;
 }
 
 // .navbar-default {
