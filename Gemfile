@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,6 +39,8 @@ gem 'spring',        group: :development
 gem 'bundler'
 
 group :development, :test do
+  # Use sqlite3 as the database for Active Record in dev
+  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 end
@@ -49,6 +49,11 @@ group :test do
   gem 'shoulda-matchers'
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+end
+
+group :production do
+  # Us postgreSQL for production/heroku
+	gem 'pg'
 end
 
 gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
