@@ -26,8 +26,8 @@
 html,body {
 	height: 100%;
   	font-family: 'Open Sans', sans-serif;
-  	background-color: White;
-  	background: url(assets/images/generic_house_1.png) no-repeat center center fixed; 
+  	// background-color: #a31a1a;
+  	background: url(generic_house_1.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -55,10 +55,10 @@ html,body {
 	background-color: #a31a1a;
 
 	.navbar-brand {
-		font-size: 30px;
+		font-size: 25px;
 		margin-left: 15px;
 		color: White;
-		font-family: 'Open Sans',sans-serif;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 .navbar-nav > li > a {
@@ -83,4 +83,38 @@ html,body {
 .jumbotron {
 	margin-top: 0;
 	background-color: Gainsboro;
+	margin-bottom: 10px;
+    // background-image: url(generic_house_1.png);
+    background-position: 0% 25%;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    color: White;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    background: rgba(200, 54, 54, 0.0); 
+
+    .btn {
+    	text-shadow: black 0.0em 0.0em 0.0em;
+    }
+
+}
+
+#wholeShabang {
+	margin-top: 14%;
+	padding-top: 20px;
+	background-color: $body-bg;
+	width: 100%;
+    // background-image: url(generic_house_1.png);
+    // background-position: 0% 25%;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
 }
