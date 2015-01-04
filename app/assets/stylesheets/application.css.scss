@@ -105,7 +105,9 @@ html,body {
 	margin-top: 14%;
 	padding-top: 20px;
 	background-color: $body-bg;
-	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	// width: 100%;
     // background-image: url(generic_house_1.png);
     // background-position: 0% 25%;
     -webkit-background-size: cover;
